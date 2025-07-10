@@ -1,11 +1,11 @@
 'use client'
 import React, { useState } from "react";
-import { RadioGroup, RadioGroupItem } from "../ui/radio-group";
 import { Label } from "../ui/label";
 import { FaLongArrowAltRight, FaStar } from "react-icons/fa";
 import Link from "next/link";
 import { motion } from "motion/react"
 import { toast } from "react-toastify";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
 const Banner = () => {
 
