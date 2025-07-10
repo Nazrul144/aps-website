@@ -1,8 +1,11 @@
+import Banner from '@/pages/HomePage/Banner'
 import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <Banner/>
+    </div>
   )
 }
 
