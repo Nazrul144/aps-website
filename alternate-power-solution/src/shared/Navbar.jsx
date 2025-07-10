@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className="flex space-x-3 items-center">
             <div className="avatar">
             </div>
-            <ModeToggl/>
+            <ModeToggle/>
             <FaWhatsapp className="text-3xl text-green-700 font-bold" />
             <Link href={"/login"}>
               <h1 className="font-bold">Call Now: 068 319 3323</h1>
