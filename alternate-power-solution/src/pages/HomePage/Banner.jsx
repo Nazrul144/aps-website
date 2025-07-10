@@ -1,11 +1,11 @@
 'use client'
 import React, { useState } from "react";
-import { Label } from "../ui/label";
 import { FaLongArrowAltRight, FaStar } from "react-icons/fa";
 import Link from "next/link";
 import { motion } from "motion/react"
 import { toast } from "react-toastify";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Label } from "@/components/ui/label";
 
 const Banner = () => {
 
@@ -101,7 +101,7 @@ const Banner = () => {
 
                         {/* First Name */}
                         <div className="w-full">
-                          <label htmlFor="user_name" className="block text-sm font-medium text-white">First Name</label>
+                          <Label htmlFor="user_name" className="block text-sm font-medium text-white">First Name</Label>
                           <input
                             className="px-4 py-2 rounded-lg outline-none w-[400px] mt-1 bg-transparent border-[1px] border-sky-200 text-white"
                             name="first_name"
@@ -113,7 +113,7 @@ const Banner = () => {
 
                         {/* Last Name */}
                         <div className="w-full">
-                          <label htmlFor="last_name" className="block text-sm font-medium text-white">Last Name</label>
+                          <Label htmlFor="last_name" className="block text-sm font-medium text-white">Last Name</Label>
                           <input
                             className="px-4 py-2 rounded-lg outline-none w-[400px] mt-1 bg-transparent border-[1px] border-sky-200 text-white"
                             name="last_name"
@@ -125,7 +125,7 @@ const Banner = () => {
 
                         {/* Email */}
                         <div className="w-full">
-                          <label htmlFor="email" className="block text-sm font-medium text-white">Email *</label>
+                          <Label htmlFor="email" className="block text-sm font-medium text-white">Email *</Label>
                           <input
                             className="px-4 py-2 rounded-lg outline-none w-[400px] mt-1 bg-transparent border-[1px] border-sky-200 text-white"
                             name="from_email"
@@ -138,7 +138,7 @@ const Banner = () => {
 
                         {/* Phone */}
                         <div className="w-full">
-                          <label htmlFor="phone" className="block text-sm font-medium text-white">Phone *</label>
+                          <Label htmlFor="phone" className="block text-sm font-medium text-white">Phone *</Label>
                           <input
                             className="px-4 py-2 rounded-lg outline-none w-[400px] mt-1 bg-transparent border-[1px] border-sky-200 text-white"
                             name="phone"
